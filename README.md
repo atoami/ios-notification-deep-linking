@@ -58,6 +58,7 @@ In *ViewController.m* file
 }
 
 -(void)didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    // check if the view is fully loaded
     if (self.isViewLoaded && self.view.window) {
         // handle the notification
         AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
