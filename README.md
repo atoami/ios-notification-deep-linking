@@ -49,7 +49,7 @@ In *AppDelegate.m* file
 ```
 
 ## Receive notifications in view controllers.
-In ViewController.m file
+In *ViewController.m* file
 ```
 - (void)viewDidLoad {
     [super viewDidLoad];
